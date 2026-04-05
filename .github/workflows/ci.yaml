@@ -35,4 +35,4 @@ jobs:
         with:
          context: ./${{ github.event.inputs.directory }}
          push: true 
-         tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.event.inputs.image_name }}:${{ github:event.inpupts.image_tag}}
+         tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.event.inputs.image_name }}:${{ github.event.inpupts.image_tag}}
