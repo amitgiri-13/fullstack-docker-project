@@ -4,17 +4,17 @@ on:
   workflow_dispatch:
     inputs:
       image_name:
-        description: "Docker image name"
+        description: "Docker image/repo name"
         required: true 
-        default: "pingpong"
+        default: "pingpong-frontend"
       image_tag:
         description: "Docker image tag"
         required: true 
         default: "latest"
       directory:
-        description: "Working directory"
+        description: "Working directory: [frontend | backend]"
         required: true
-        default: "."
+        default: "frontend"
 
 jobs:
   build-and-push:
