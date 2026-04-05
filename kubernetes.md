@@ -26,7 +26,6 @@ This project deploys a full-stack **PingPong application** on a local Kubernetes
 │   ├── postgres-secrets.yaml
 │   ├── postgres-service.yaml
 │   ├── postgres-statefulset.yaml
-│   └── postgres-volume.yaml
 └── redis
     ├── redis-deployment.yaml
     └── redis-service.yaml
