@@ -61,4 +61,10 @@ See the project diagram for understanding the app architecture.
 
 > [See the full pipeline details](./ci-pipeline.md)
 
----
+
+
+## Deploy With Kubernetes
+
+> This application is also deployed using Kubernetes.
+
+> [See the Kubernetes deployment guide](./kubernetes.md)
