@@ -21,4 +21,4 @@ spec:
             - containerPort: 5000
           env:
             - name: REACT_APP_BACKEND_URL
-              value: http://backend:8080
+              value: http://pingpong.local
