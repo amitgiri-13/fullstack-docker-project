@@ -51,3 +51,14 @@ See the project diagram for understanding the app architecture.
 ## Complete Project Screenshot
 
 ![Project Diagram](https://github.com/faayam/fullstack-docker-project/blob/main/app-screeshots/complete-project.png)
+
+
+
+## Setup CI Pipeline
+
+
+> GitHub Actions workflow to build and push both frontend and backend Docker images to Docker Hub.
+
+> [See the full pipeline details](./ci-pipeline.md)
+
+---
